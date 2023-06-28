@@ -14,7 +14,7 @@ const ExploreBar = () => {
     return <WhoToFollowCard key={item.id} userData={item} />;
   });
   return (
-    <div className="flex flex-col bg-white w-1/3 px-6 overflow-scroll">
+    <div className="flex flex-col bg-white w-1/3 px-6 overflow-scroll hidden lg:inline">
       <div className="flex flex-row bg-slate-100 rounded-full mt-2 p-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"

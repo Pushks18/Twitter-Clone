@@ -4,7 +4,7 @@ import MenuItem from "./MenuItem";
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col w-1/4 h-full overflow-scroll justify-start items-start px-10">
+    <div className="cols-span-2 flex flex-col w-1/4 h-full overflow-scroll justify-start items-start px-10">
       <Link to="/">
         <img
           src="https://res.cloudinary.com/sarveshp46/image/upload/v1671113197/twitter-workshop/twitter_mswkcv.png"
@@ -204,7 +204,7 @@ const Sidebar = () => {
         ></img>
 
         <div className="flex flex-col flex-1">
-          <h1 className="text-lg font-bold">Pushkaraj Baradkar</h1>
+          <h1 className="text-xl font-bold">Pushkaraj Baradkar</h1>
           <h1 className="text-lg font-medium text-gray-600">@pushks18</h1>
         </div>
 
